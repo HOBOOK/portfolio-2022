@@ -6,8 +6,22 @@
     "start": "next start"
   },
   "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/styles": "^4.11.4",
+    "babel-plugin-module-resolver": "^4.1.0",
     "next": "latest",
+    "next-redux-wrapper": "^7.0.5",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "redux": "^4.1.2",
+    "styled-components": "^5.3.3",
+    "yarn": "^1.22.17"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.37",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6",
+    "typescript": "^4.5.2"
   }
 }
